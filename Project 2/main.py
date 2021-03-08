@@ -29,10 +29,10 @@ def conv_lower(string):
 def count_alphabet(string, alphabet):
     # variable for count alphabet frequency
     count = 0
-    # pengulangan untuk setiap data pada kalimat
+    # looping for every alphabet data of string
     for alphabet1 in string:
-        # jika huruf terdapat pada kalimat
-        # maka hitung ditambah 1
+        # if alphabet found
+        # count + 1
         if alphabet1 == alphabet:
             count += 1
     return count
