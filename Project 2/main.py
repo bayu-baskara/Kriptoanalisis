@@ -57,7 +57,7 @@ def main():
             write_file()
             print("New String was Saved!")
         else:
-            print("Error in read_file()")
+            print("Error in read_file() string.txt : Empty File")
 
     elif pilih == 2:
         print("Current String of string.txt")
