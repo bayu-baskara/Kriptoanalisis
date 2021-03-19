@@ -50,7 +50,7 @@ def change_char():
     print("---------------------------------")
     # replace() fungtion for replace char_def with newchar
     char_rep = string.replace(char_def, newchar)
-    print("New String", char_rep)
+    print("New String : ", char_rep)
     # rewrite string.txt with char_rep
     string_file = open("string.txt", "w")
     string = char_rep
